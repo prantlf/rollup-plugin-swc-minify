@@ -10,7 +10,7 @@
       "url": "https://github.com/prantlf/rollup-plugin-swc-minify/blob/master/LICENSE"
     }
   ],
-  "homepage": "http://prantlf.github.com/rollup-plugin-swc-minify/",
+  "homepage": "http://github.com/prantlf/rollup-plugin-swc-minify/",
   "repository": {
     "type": "git",
     "url": "https://github.com/prantlf/rollup-plugin-swc-minify.git"
