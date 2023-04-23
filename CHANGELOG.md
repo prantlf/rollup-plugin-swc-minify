@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/prantlf/rollup-plugin-swc-minify/compare/v1.0.5...v1.0.6) (2023-04-23)
+
+
+### Bug Fixes
+
+* Upgrade dependencies ([fe23a4b](https://github.com/prantlf/rollup-plugin-swc-minify/commit/fe23a4bd042f42733ae9bf381bae9fb1eb712e24))
+
 ## [1.0.5](https://github.com/prantlf/rollup-plugin-swc-minify/compare/v1.0.4...v1.0.5) (2022-10-30)
 
 
