@@ -7,7 +7,7 @@
 
 [Rollup] plugin to minify generated bundles using [swc].
 
-Simpler than [rollup-plugin-swc], focusing only on minification of the bundled JavaScript output.
+Simpler than [rollup-plugin-swc], focusing only on minification of the bundled JavaScript output. Faster than [@rollup/plugin-terser].
 
 ## Synopsis
 
@@ -68,4 +68,5 @@ Licensed under the [MIT License].
 [command-line]: https://www.rollupjs.org/guide/en/#command-line-reference
 [programmatically]: https://www.rollupjs.org/guide/en/#javascript-api
 [rollup-plugin-swc]: https://www.npmjs.com/package/rollup-plugin-swc
+[@rollup/plugin-terser]: https://www.npmjs.com/package/@rollup/plugin-terser
 [swc]: https://swc.rs/
