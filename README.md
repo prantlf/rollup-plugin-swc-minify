@@ -48,6 +48,12 @@ export default {
 
 Then call `rollup` either via the [command-line] or [programmatically].
 
+### Options
+
+* `format` - if set to `'es'`, the code will be minified as an ES module
+* `sourcemap` - set to `true` to generate a source map
+* `sourcemapExcludeSources` - set to `true` to not include a copy of sources in the source map
+
 ## Contributing
 
 In lieu of a formal styleguide, take care to maintain the existing coding style. Lint and test your code.

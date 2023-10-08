@@ -41,8 +41,8 @@ test('minify with source map', async () => {
 
   const code = await readFile('test/out.js', 'utf8')
   const map = await readFile('test/out.js.map', 'utf8')
-  strictEqual(code, `var glob=()=>{console.log("glob")};function help(){console.log("help")}export{glob,help};
+  strictEqual(code, `var o=()=>{console.log("glob")};function l(){console.log("help")}export{o as glob,l as help};
 //# sourceMappingURL=out.js.map
 `)
-  strictEqual(map, `{"version":3,"file":"out.js","sources":["glob.js","help.js"],"sourcesContent":["export default () => {\\n  if (this !== {})\\n    console.log('glob')\\n}\\n","// prints usage instructions\\nexport function help() {\\n  console.log('help')\\n}\\n"],"names":["glob","console","log","help"],"mappings":"AAAA,IAAAA,KAAe,IAAM,CAEjBC,QAAQC,GAAG,CAAC,OAChB,ECFO,SAASC,MAAO,CACrBF,QAAQC,GAAG,CAAC,OACd"}`)
+  strictEqual(map, `{"version":3,"file":"out.js","sources":["glob.js","help.js"],"sourcesContent":["export default () => {\\n  if (this !== {})\\n    console.log('glob')\\n}\\n","// prints usage instructions\\nexport function help() {\\n  console.log('help')\\n}\\n"],"names":["glob","console","log","help"],"mappings":"AAAA,IAAAA,EAAe,KAEXC,QAAQC,GAAG,CAAC,OAChB,ECFO,SAASC,IACdF,QAAQC,GAAG,CAAC,OACd"}`)
 })
