@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/prantlf/rollup-plugin-swc-minify/compare/v1.0.6...v1.1.0) (2023-10-08)
+
+
+### Features
+
+* Recognise the option sourcemapExcludeSources and upgrade swc ([b076c7b](https://github.com/prantlf/rollup-plugin-swc-minify/commit/b076c7b6e8733e83c232a855ec1e0c4711fa5be5))
+
 ## [1.0.6](https://github.com/prantlf/rollup-plugin-swc-minify/compare/v1.0.5...v1.0.6) (2023-04-23)
 
 
