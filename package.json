@@ -61,16 +61,16 @@
     ]
   },
   "dependencies": {
-    "@swc/core": "^1.3.92"
+    "@swc/core": "^1.5.7"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
-    "c8": "^8.0.1",
-    "denolint": "^2.0.12",
-    "rollup": "^4.0.2",
+    "c8": "^9.1.0",
+    "denolint": "^2.0.14",
+    "rollup": "^4.18.0",
     "tehanu": "^1.0.1",
-    "tehanu-repo-coco": "^1.0.0"
+    "tehanu-repo-coco": "^1.0.1"
   },
   "peerDependencies": {
     "rollup": "^2 || ^3 || ^4"
