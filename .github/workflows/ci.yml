@@ -13,7 +13,7 @@ on:
 
 jobs:
   test-or-release:
-    runs-on: macos-13
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
     - uses: pnpm/action-setup@v4
@@ -27,7 +27,7 @@ jobs:
     - run: pnpm i --frozen-lockfile --no-verify-store-integrity
     - run: npm test
     - uses: codecov/codecov-action@v4
-      if: ${{ github.ref_name == 'master' }}
+      if: ${{ github.ref_n2ame == 'master' }}
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
     - uses: prantlf/publish-release-action@v1
