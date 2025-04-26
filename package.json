@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-swc-minify",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Rollup plugin to minify generated bundles using swc.",
   "author": "Ferdinand Prantl <prantlf@gmail.com> (http://prantl.tk)",
   "license": "MIT",

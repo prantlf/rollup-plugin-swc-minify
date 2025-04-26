@@ -1,5 +1,11 @@
 # Changes
 
+# [1.3.0](https://github.com/prantlf/rollup-plugin-swc-minify/compare/v1.2.0...v1.3.0) (2025-04-26)
+
+## Features
+
+* Upgrade dependencies ([2f20363](https://github.com/prantlf/rollup-plugin-swc-minify/commit/2f203633690bc8594ba883a9c09200ae3e6bab5b))
+
 # [1.2.0](https://github.com/prantlf/rollup-plugin-swc-minify/compare/v1.1.2...v1.2.0) (2024-12-10)
 
 ## Features
